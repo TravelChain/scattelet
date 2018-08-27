@@ -57,16 +57,16 @@
 
     const network = {
         blockchain:'eos',
-        host:'nodes.get-scatter.com',
+        host:'api.travelchain.io',
         port:location.protocol === 'https:' ? 443 : 80,
-        chainId:'aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906'
+        chainId:'0443d062bb782b32bdc07a65273e1696c9a28749c047124927c7160897cacd28'
     };
 
     export default {
         data(){ return {
             identified:false,
             recipient:'',
-            symbol:'EOS',
+            symbol:'TT',
             amount:'',
             memo:'',
             balance:'0',
